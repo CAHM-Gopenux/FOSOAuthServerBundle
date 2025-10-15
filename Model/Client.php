@@ -139,7 +139,7 @@ class Client implements ClientInterface
         // Will use auto salt system
     }
 
-    public function eraseCredentials()
+    public function eraseCredentials(): void
     {
         // nothind to erase
     }
